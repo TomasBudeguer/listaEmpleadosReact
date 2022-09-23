@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Lista de empleados",
+  "name": "Lista de empleados con react",
   "icons": [
     {
       "src": "favicon.ico",
