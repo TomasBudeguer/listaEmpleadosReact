@@ -1,9 +1,9 @@
-const EmpleadoAvatar = () => {
+const EmpleadoAvatar = (props) => {
   return (
     <div>
       <img
-        src="https://trello.com/1/cards/632a448eb47fe800d9bdef25/attachments/632cd86034034e0170124eec/download/image.png"
-        alt="Homer Simpson"
+        src={props.empleado.pic}
+        alt={props.empleado.fullName}
         className="w-100"
       />
     </div>
